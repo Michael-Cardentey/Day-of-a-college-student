@@ -16,6 +16,8 @@
 		80D5B61B2B9A8AE7007A9154 /* Day_of_a_college_studentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5B61A2B9A8AE7007A9154 /* Day_of_a_college_studentTests.swift */; };
 		80D5B6252B9A8AE7007A9154 /* Day_of_a_college_studentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5B6242B9A8AE7007A9154 /* Day_of_a_college_studentUITests.swift */; };
 		80D5B6272B9A8AE7007A9154 /* Day_of_a_college_studentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5B6262B9A8AE7007A9154 /* Day_of_a_college_studentUITestsLaunchTests.swift */; };
+		80D5B6362B9A8F0A007A9154 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5B6352B9A8F0A007A9154 /* Story.swift */; };
+		80D5B6382B9A8F19007A9154 /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D5B6372B9A8F19007A9154 /* StoryBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		80D5B6202B9A8AE7007A9154 /* Day of a college studentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day of a college studentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D5B6242B9A8AE7007A9154 /* Day_of_a_college_studentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_of_a_college_studentUITests.swift; sourceTree = "<group>"; };
 		80D5B6262B9A8AE7007A9154 /* Day_of_a_college_studentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_of_a_college_studentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80D5B6352B9A8F0A007A9154 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		80D5B6372B9A8F19007A9154 /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,9 @@
 			children = (
 				80D5B6032B9A8AE5007A9154 /* AppDelegate.swift */,
 				80D5B6052B9A8AE5007A9154 /* SceneDelegate.swift */,
-				80D5B6072B9A8AE5007A9154 /* ViewController.swift */,
-				80D5B6092B9A8AE5007A9154 /* Main.storyboard */,
+				80D5B6392B9A8F22007A9154 /* Model */,
+				80D5B6332B9A8ED7007A9154 /* View */,
+				80D5B6342B9A8EE8007A9154 /* Controller */,
 				80D5B60C2B9A8AE7007A9154 /* Assets.xcassets */,
 				80D5B60E2B9A8AE7007A9154 /* LaunchScreen.storyboard */,
 				80D5B6112B9A8AE7007A9154 /* Info.plist */,
@@ -125,6 +130,31 @@
 				80D5B6262B9A8AE7007A9154 /* Day_of_a_college_studentUITestsLaunchTests.swift */,
 			);
 			path = "Day of a college studentUITests";
+			sourceTree = "<group>";
+		};
+		80D5B6332B9A8ED7007A9154 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80D5B6092B9A8AE5007A9154 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80D5B6342B9A8EE8007A9154 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80D5B6072B9A8AE5007A9154 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80D5B6392B9A8F22007A9154 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80D5B6352B9A8F0A007A9154 /* Story.swift */,
+				80D5B6372B9A8F19007A9154 /* StoryBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D5B6382B9A8F19007A9154 /* StoryBrain.swift in Sources */,
 				80D5B6082B9A8AE5007A9154 /* ViewController.swift in Sources */,
 				80D5B6042B9A8AE5007A9154 /* AppDelegate.swift in Sources */,
 				80D5B6062B9A8AE5007A9154 /* SceneDelegate.swift in Sources */,
+				80D5B6362B9A8F0A007A9154 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
